@@ -1,127 +1,86 @@
-<h1 align="center">Github Portfolio</h1>
-<h1 align="center"><img src="https://user-images.githubusercontent.com/128648409/230751521-cb35e8bc-583e-4ec7-a1b6-1466e94c6705.jpg" height="400" width="500" alt="wallpaper-preview"></h1>
-<h1 align="center">Hi, I'm Adric Macharia</h1>
-<h3 align="center">Cyber-Security Graduate from Chestnut Hill College</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adric Macharia Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" href="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/logo.png">
+</head>
+<body class="bg-gray-900 text-white font-sans">
 
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center justify-center h-screen text-center px-4">
+    <img src="https://your-photo-url.com" alt="Adric Macharia" class="rounded-full w-40 h-40 mb-6 border-4 border-blue-500">
+    <h1 class="text-5xl font-bold mb-2">Adric Macharia</h1>
+    <h2 class="text-xl text-gray-300 mb-4">Cybersecurity | Data Analysis | SOC & Digital Health Engineer</h2>
+    <p class="text-gray-400 max-w-xl">Passionate about building secure, data-driven, and impactful technology solutions for enterprises and healthcare systems.</p>
+    <div class="mt-6">
+      <a href="mailto:Adricmacharia@gmail.com" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded mr-2">Email Me</a>
+      <a href="https://www.linkedin.com/in/adricmacharia" target="_blank" class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded">LinkedIn</a>
+    </div>
+  </section>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/adricmacharia" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Adric Macharia's LinkedIn Profile" height="30" width="40" />
-  </a>
-</p>
+  <!-- About Me -->
+  <section id="about" class="py-20 px-4 bg-gray-800">
+    <h2 class="text-4xl font-bold text-center mb-8">About Me</h2>
+    <p class="max-w-3xl mx-auto text-gray-300 text-center">
+      I am a Cybersecurity graduate from Chestnut Hill College, specializing in network security, data analysis, and digital health solutions. I have experience in SOC operations, service automation, and project delivery for global clients.
+    </p>
+  </section>
 
-<p align="left"> 
+  <!-- Services -->
+  <section id="services" class="py-20 px-4">
+    <h2 class="text-4xl font-bold text-center mb-12">What I Do</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-700 p-6 rounded-lg text-center hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">Data Analysis</h3>
+        <p>SQL, Power BI, dashboards, data visualization, and reporting for actionable insights.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg text-center hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">SOC Engineering</h3>
+        <p>Security monitoring, incident response, threat analysis, and automation using Splunk & SIEM tools.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg text-center hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">Digital Health Solutions</h3>
+        <p>OpenMRS, FHIR mobile apps, data integration, AI-powered health tools, and interoperability solutions.</p>
+      </div>
+    </div>
+  </section>
 
-<p align="left"> 
-<p align="left"> 
-- 📫 How to reach me: Adricmacharia@gmail.com</p>
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-4 bg-gray-800">
+    <h2 class="text-4xl font-bold text-center mb-12">Projects</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">ServiceNow Ticket Triage Bot</h3>
+        <p>Automates ticket classification & routing using Python and JSON-based rules. Reduces SLA violations.</p>
+        <a href="https://github.com/user-attachments/files/21676261/Service.Now.Triage.Bot.pdf" class="text-blue-400 hover:underline">View Project</a>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">CyberSploit Senior Project</h3>
+        <p>Senior project focusing on cybersecurity vulnerability analysis and ethical hacking simulations.</p>
+        <a href="https://github.com/TheBlack-code/Adric-Macharia/files/11184752/CyberSploit.1.-.Report.1.zip" class="text-blue-400 hover:underline">View Project</a>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">SolarWinds Network Monitor Simulation</h3>
+        <p>Network performance monitoring with proactive bottleneck analysis using SolarWinds NPM.</p>
+        <a href="https://github.com/user-attachments/files/21676265/SolarWinds.Network.Monitor.Simulation.pdf" class="text-blue-400 hover:underline">View Project</a>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition">
+        <h3 class="text-2xl font-bold mb-2">OpenMRS Data Integration</h3>
+        <p>Python scripts to sync patient records across OpenMRS and Odoo for digital health solutions.</p>
+        <a href="https://github.com/yourusername/Madiro-Health-Projects" class="text-blue-400 hover:underline">View Project</a>
+      </div>
+    </div>
+  </section>
 
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-4 text-center">
+    <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+    <p class="text-gray-300 mb-4">Feel free to reach out for collaborations or freelance projects.</p>
+    <a href="mailto:Adricmacharia@gmail.com" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded">Email Me</a>
+  </section>
 
-
-
-#
-
-### 📺 Latest Projects
-#
-<!-- BEGIN Projects -->
-# ServiceNow Ticket Triage Bot
-⤷ “I built a ServiceNow Ticket Triage Bot in Python that connects to the ServiceNow API and auto-classifies incoming incident tickets. It uses a JSON-based rules engine to assign priority and route tickets to the right team. I implemented this to simulate real-life helpdesk workflows, reduce SLA violations, and improve triage accuracy. I can walk you through the logic, the code, and even demo a ticket in real time.”</p>
-
-⤷ [Service Now Triage Bot.pdf](https://github.com/user-attachments/files/21676261/Service.Now.Triage.Bot.pdf)
-⤷ </p>
-
-# Senior Year Project
-⤷ [CyberSploit 1 - Report (1).zip](https://github.com/TheBlack-code/Adric-Macharia/files/11184752/CyberSploit.1.-.Report.1.zip)
-⤷ </p>
-
-
-# SolarWinds Network Monitor Simulation
-⤷ [SolarWinds Network Monitor Simulation.pdf](https://github.com/user-attachments/files/21676265/SolarWinds.Network.Monitor.Simulation.pdf)
-⤷ </p>
-
-
-<br />
-
-
-### 📜 Certifications
-<!-- BEGIN Certifications -->
-- Microsoft 365 Certified: Security Administrator Associate ✅
-- CompTia: Network Plus --> Exam Due by (2025-September 20th) (currently Studying) <----
-- Microsoft Certified: Cloud-Azure Fundamentals (AZ-900) --> Exam Due by (November 20th (Pending) <----
-- AZ-104 Microsoft Azure Administrator Certification (Pending next year 2027 Mid June) <----
-
-<!-- END Certifications -->
-
-### 🧰 Languages 
-<!-- BEGIN Languages  -->
---> English (10/10)
---> Swahili (6/10) 
---> Japanese (0/10) Pending
---> German-Deutsh (0/10) Pending
-
-### 💻 Technical Skills
-
-#### 🔒 Networking & Security
-- Cisco switches & routers, **Palo Alto NGFW**, **Fortinet Firewalls**
-- **Cisco ISE**, TCP/UDP, IP Addressing, CIDR, MPLS, Private IP, TLS SIP
-- **SolarWinds** for traffic analysis, bottleneck detection, and proactive performance tuning
-- **Cisco ASA**, **Firewall automation with PowerShell**
-- Protocols: TCP/IP, VPN, MPLS, WAN/LAN, VPN Tunneling
-
-#### ⚙️ Automation & Infrastructure
-- **Puppet** for configuration management
-- **PowerShell** scripting for backup automation, account creation, and system health checks
-- **BAS (Building Automation Systems)** for energy management and HVAC controls
-- **CMMS (Maximo)** for asset and maintenance management
-- **PEVCO** Pneumatic Tube Systems: support, troubleshooting, and integration with facilities systems
-
-#### 🔧 Monitoring & Support Tools
-- **SolarWinds** (NPM, SAM)
-- **ServiceNow**, **Splunk SOAR**
-- **Microsoft Endpoint Manager**
-- **SharePoint**, **MS Teams**
-- **SQL**, **OIT**
-
-#### 🚚 Logistics & Process Optimization
-- **Oracle Transportation Management (OTM)**:  
-  - Route planning  
-  - Shipping & inventory monitoring  
-  - Logistics optimization  
-
-#### 🖥️ Operating Systems
-- Windows  
-- Linux  
-- MacOS  
-
-#### 📘 Documentation & Process
-- Infrastructure & support documentation
-- Automation logs  
-- Knowledge base content  
-- Process automation for OTM and server configs
-
-#### 🔐 Security & Infrastructure
-- Vulnerability scanning and analysis  
-- Cybersecurity best practices  
-- Incident response  
-- Data Center Technologies:  
-  - **VMware**, **FC**, **FCIP**, **UCS**, **Nexus** switches  
-
-#### 💼 SAP & ABAP
-- Completed **SAP & ABAP programming online training**
-- Exposure to SAP module integration and ABAP development  
-- Business process automation and backend logic scripting
-
-
-<br />
-
-
-
-
-<!-- END Projects -->
-
-
-
-
-
-
-
+</body>
+</html>
